@@ -10,7 +10,7 @@ public class dbConfig {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/contact_manager", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/contact_manager", "root", ""); // Database name: contact_manager, MySQL user: root & Password: ""
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
