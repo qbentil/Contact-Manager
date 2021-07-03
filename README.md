@@ -1,5 +1,7 @@
 # Java Contact Manager
-Contact Manager in Java. Functionalities include;
+Contact Manager made with JAVA and UI Java Swing with MySQL Database.
+
+Functionalities include;
 User Registration and Login.
 Users can Add,  Edit and Delete Contacts.
 
