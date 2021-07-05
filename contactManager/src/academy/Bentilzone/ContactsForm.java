@@ -62,7 +62,7 @@ public class ContactsForm extends JFrame{
 
     //App constructor
     public ContactsForm() {
-        Icon logoutIcon = function.resizePic("C:\\Users\\User\\masterClass\\icons\\logout.png", null, 45, 45);
+        Icon logoutIcon = function.resizePic("ICON_PATH", null, 45, 45);
         logout.setIcon(logoutIcon);
         addressTextArea.setAutoscrolls(true);
         scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
