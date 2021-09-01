@@ -85,15 +85,14 @@ public class myFunction {
         return validated;
     }
     public boolean validatePhone(String phone){
-        boolean validated = true;
         Pattern regExPattern = Pattern.compile("^(\\+\\d{1,3}( )?)?((\\(\\d{3}\\))|\\d{3})[- .]?\\d{3}[- .]?\\d{4}$"
                 + "|^(\\+\\d{1,3}( )?)?(\\d{3}[ ]?){2}\\d{3}$"
                 + "|^(\\+\\d{1,3}( )?)?(\\d{3}[ ]?)(\\d{2}[ ]?){2}\\d{2}$");
         Matcher regExMatcher = regExPattern.matcher(phone);
         if(!regExMatcher.matches()){
-            validated = false;
+            return false;
         }
-        return validated;
+        return true;
     }
     public void errorMessage(String title, String message){
         JOptionPane optionPane = new JOptionPane(message, JOptionPane.ERROR_MESSAGE);
