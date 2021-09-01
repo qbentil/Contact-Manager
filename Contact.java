@@ -89,9 +89,7 @@ public class Contact {
     public byte[] getPic() {
         return pic;
     }
-//    public ImageIcon getImageIcon(){
-//        return new ImageIcon(new ImageIcon(pic).getImage().getScaledInstance(120, 80, Image.SCALE_SMOOTH));
-//    }
+
     public void setPic(byte[] pic) {
         this.pic = pic;
     }
